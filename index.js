@@ -1,6 +1,5 @@
-a=require ('./busy')
-x=9
-y=8
-z=a.sum(x,y)
-m=a.sub(x,y)
-console.log(m)
+
+var array=[5,4,3,2]
+var m=require('./math')
+ad=m.sum(array)
+console.log(ad)
