@@ -1,18 +1,6 @@
-function sum(a,b)
-{
-  return a+b;
-}
-function sub(a,b)
-{
-  return a-b;
-}
-
-function pro(a,b)
-{
-  return a-b;
-}
+a=require ('./busy')
 x=9
 y=8
-z=sum(x,y)
-m=sub(x,y)
+z=a.sum(x,y)
+m=a.sub(x,y)
 console.log(m)
